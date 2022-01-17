@@ -1,0 +1,114 @@
+Model: "FFNN"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input (InputLayer)           [(None, 25)]              0         
+_________________________________________________________________
+125_nodes_hidden_layer_1 (De (None, 50)                1300      
+_________________________________________________________________
+50_nodes_hidden_layer_2 (Den (None, 50)                2550      
+_________________________________________________________________
+25_nodes_hidden_layer_3 (Den (None, 25)                1275      
+_________________________________________________________________
+output_R_eff (Dense)         (None, 1)                 26        
+=================================================================
+Total params: 5,151
+Trainable params: 5,151
+Non-trainable params: 0
+_________________________________________________________________
+
+>>> training using 850 data for a batch size of 8 in progress...
+
+Epoch: 0, loss:0.0003,  mean_absolute_error:0.0134,  val_loss:0.0002,  val_mean_absolute_error:0.0125,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0040,  val_loss:0.0001,  val_mean_absolute_error:0.0077,  
+......................
+--- the loss for the training data is [0.00012157156015746295, 0.007715757470577955]
+
+>>> training using 850 data for a batch size of 16 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0016,  val_loss:0.0001,  val_mean_absolute_error:0.0073,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0016,  val_loss:0.0001,  val_mean_absolute_error:0.0074,  
+..................................................................................................
+--- the loss for the training data is [0.00012177877215435728, 0.007469268050044775]
+
+>>> training using 850 data for a batch size of 32 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0010,  val_loss:0.0001,  val_mean_absolute_error:0.0075,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0005,  val_loss:0.0001,  val_mean_absolute_error:0.0077,  
+.....................................................................
+--- the loss for the training data is [0.00012403908476699144, 0.007708540186285973]
+
+>>> training using 850 data for a batch size of 64 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0006,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0003,  val_loss:0.0001,  val_mean_absolute_error:0.0077,  
+....................................................................
+--- the loss for the training data is [0.0001227678294526413, 0.0076180570758879185]
+
+>>> training using 850 data for a batch size of 128 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0003,  val_loss:0.0001,  val_mean_absolute_error:0.0077,  
+....................................................................................................
+Epoch: 200, loss:0.0000,  mean_absolute_error:0.0002,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+......................................................................................
+--- the loss for the training data is [0.00012448358756955713, 0.007723823189735413]
+
+>>> training using 850 data for a batch size of 256 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0003,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0007,  val_loss:0.0001,  val_mean_absolute_error:0.0075,  
+.........................................................................................
+--- the loss for the training data is [0.00012296283966861665, 0.007649073377251625]
+
+>>> training using 850 data for a batch size of 512 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0000,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+....................................
+--- the loss for the training data is [0.00012372243509162217, 0.007665171753615141]
+
+>>> training using 850 data for a batch size of 850 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0001,  val_mean_absolute_error:0.0077,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0012,  val_loss:0.0001,  val_mean_absolute_error:0.0076,  
+................
+--- the loss for the training data is [0.00012343432172201574, 0.007694432511925697]
+a batch size of 8 resulted in the best training loss of 0.00012157156015746295
+Model: "FFNN"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input (InputLayer)           [(None, 25)]              0         
+_________________________________________________________________
+125_nodes_hidden_layer_1 (De (None, 50)                1300      
+_________________________________________________________________
+50_nodes_hidden_layer_2 (Den (None, 50)                2550      
+_________________________________________________________________
+25_nodes_hidden_layer_3 (Den (None, 25)                1275      
+_________________________________________________________________
+output_R_eff (Dense)         (None, 1)                 26        
+=================================================================
+Total params: 5,151
+Trainable params: 5,151
+Non-trainable params: 0
+_________________________________________________________________
+
+Test loss, accuracy: [8.706587686901912e-05, 0.006617359351366758]
+--- Test0 relative error: mean = 0.75%, standard deviation = 0.71%
+
+Validation loss, accuracy: [0.00012157156015746295, 0.007715757470577955]
+--- Validation0 relative error: mean = 0.89%, standard deviation = 0.91%
+
+Train loss, accuracy: [5.3833782658330165e-06, 0.0018316827481612563]
+--- Train0 relative error: mean = 0.22%, standard deviation = 0.17%
+
+Simulation time: 47.30 seconds.

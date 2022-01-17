@@ -1,0 +1,156 @@
+Model: "FFNN"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input (InputLayer)           [(None, 25)]              0         
+_________________________________________________________________
+125_nodes_hidden_layer_1 (De (None, 50)                1300      
+_________________________________________________________________
+50_nodes_hidden_layer_2 (Den (None, 50)                2550      
+_________________________________________________________________
+25_nodes_hidden_layer_3 (Den (None, 25)                1275      
+_________________________________________________________________
+output_R_eff (Dense)         (None, 1)                 26        
+=================================================================
+Total params: 5,151
+Trainable params: 5,151
+Non-trainable params: 0
+_________________________________________________________________
+
+>>> training using 1700 data for a batch size of 32 in progress...
+
+Epoch: 0, loss:0.0633,  mean_absolute_error:0.1870,  val_loss:0.0170,  val_mean_absolute_error:0.1062,  
+....................................................................................................
+Epoch: 100, loss:0.0001,  mean_absolute_error:0.0079,  val_loss:0.0006,  val_mean_absolute_error:0.0180,  
+....................................................................................................
+Epoch: 200, loss:0.0000,  mean_absolute_error:0.0043,  val_loss:0.0004,  val_mean_absolute_error:0.0154,  
+....................................................................................................
+Epoch: 300, loss:0.0000,  mean_absolute_error:0.0040,  val_loss:0.0004,  val_mean_absolute_error:0.0147,  
+....................................................................................................
+Epoch: 400, loss:0.0000,  mean_absolute_error:0.0041,  val_loss:0.0004,  val_mean_absolute_error:0.0142,  
+....................................................................................................
+Epoch: 500, loss:0.0000,  mean_absolute_error:0.0020,  val_loss:0.0004,  val_mean_absolute_error:0.0140,  
+....................................................................................................
+Epoch: 600, loss:0.0000,  mean_absolute_error:0.0016,  val_loss:0.0003,  val_mean_absolute_error:0.0130,  
+....................................................................................................
+Epoch: 700, loss:0.0000,  mean_absolute_error:0.0031,  val_loss:0.0003,  val_mean_absolute_error:0.0123,  
+....................................................................................................
+Epoch: 800, loss:0.0000,  mean_absolute_error:0.0015,  val_loss:0.0003,  val_mean_absolute_error:0.0120,  
+....................................................................................................
+Epoch: 900, loss:0.0000,  mean_absolute_error:0.0036,  val_loss:0.0003,  val_mean_absolute_error:0.0124,  
+....................................................................................................
+Epoch: 1000, loss:0.0000,  mean_absolute_error:0.0029,  val_loss:0.0002,  val_mean_absolute_error:0.0115,  
+....................................................................................................
+Epoch: 1100, loss:0.0000,  mean_absolute_error:0.0015,  val_loss:0.0002,  val_mean_absolute_error:0.0110,  
+....................................................................................................
+Epoch: 1200, loss:0.0000,  mean_absolute_error:0.0011,  val_loss:0.0002,  val_mean_absolute_error:0.0107,  
+....................................................................................................
+Epoch: 1300, loss:0.0000,  mean_absolute_error:0.0019,  val_loss:0.0003,  val_mean_absolute_error:0.0122,  
+....................................................................................................
+Epoch: 1400, loss:0.0000,  mean_absolute_error:0.0016,  val_loss:0.0002,  val_mean_absolute_error:0.0105,  
+....................................................................................................
+Epoch: 1500, loss:0.0000,  mean_absolute_error:0.0015,  val_loss:0.0002,  val_mean_absolute_error:0.0101,  
+....................................................................................................
+Epoch: 1600, loss:0.0000,  mean_absolute_error:0.0032,  val_loss:0.0002,  val_mean_absolute_error:0.0107,  
+....................................................................................................
+Epoch: 1700, loss:0.0000,  mean_absolute_error:0.0017,  val_loss:0.0002,  val_mean_absolute_error:0.0107,  
+....................................................................................................
+Epoch: 1800, loss:0.0000,  mean_absolute_error:0.0022,  val_loss:0.0002,  val_mean_absolute_error:0.0098,  
+....................................................................................................
+Epoch: 1900, loss:0.0000,  mean_absolute_error:0.0014,  val_loss:0.0002,  val_mean_absolute_error:0.0097,  
+....................................................................................................
+Epoch: 2000, loss:0.0000,  mean_absolute_error:0.0012,  val_loss:0.0002,  val_mean_absolute_error:0.0093,  
+....................................................................................................
+Epoch: 2100, loss:0.0000,  mean_absolute_error:0.0011,  val_loss:0.0002,  val_mean_absolute_error:0.0092,  
+....................................................................................................
+Epoch: 2200, loss:0.0000,  mean_absolute_error:0.0017,  val_loss:0.0002,  val_mean_absolute_error:0.0091,  
+....................................................................................................
+Epoch: 2300, loss:0.0000,  mean_absolute_error:0.0017,  val_loss:0.0002,  val_mean_absolute_error:0.0090,  
+............................................
+--- the loss for the training data is [0.0001667714532231912, 0.008753102272748947]
+
+>>> training using 1700 data for a batch size of 64 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0007,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0003,  val_loss:0.0002,  val_mean_absolute_error:0.0087,  
+....................................................................................................
+Epoch: 200, loss:0.0000,  mean_absolute_error:0.0011,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+..........................................................................................
+--- the loss for the training data is [0.00016530962602701038, 0.008743387646973133]
+
+>>> training using 1700 data for a batch size of 128 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0007,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0009,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+...........................................................................................
+--- the loss for the training data is [0.00016661609697621316, 0.008771570399403572]
+
+>>> training using 1700 data for a batch size of 256 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0009,  val_loss:0.0002,  val_mean_absolute_error:0.0089,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0007,  val_loss:0.0002,  val_mean_absolute_error:0.0087,  
+....................................................................................................
+Epoch: 200, loss:0.0000,  mean_absolute_error:0.0002,  val_loss:0.0002,  val_mean_absolute_error:0.0087,  
+....................................................................................................
+Epoch: 300, loss:0.0000,  mean_absolute_error:0.0005,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+...............
+--- the loss for the training data is [0.00016671909543219954, 0.00875477772206068]
+
+>>> training using 1700 data for a batch size of 512 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0004,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0006,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+....................................................................................................
+Epoch: 200, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0002,  val_mean_absolute_error:0.0087,  
+...............................................................
+--- the loss for the training data is [0.00016416188736911863, 0.00873633660376072]
+
+>>> training using 1700 data for a batch size of 1024 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0006,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+...
+--- the loss for the training data is [0.00016588374273851514, 0.008753251284360886]
+
+>>> training using 1700 data for a batch size of 1700 in progress...
+
+Epoch: 0, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+....................................................................................................
+Epoch: 100, loss:0.0000,  mean_absolute_error:0.0001,  val_loss:0.0002,  val_mean_absolute_error:0.0088,  
+.................
+--- the loss for the training data is [0.00016584584955126047, 0.008751742541790009]
+a batch size of 512 resulted in the best training loss of 0.00016416188736911863
+Model: "FFNN"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input (InputLayer)           [(None, 25)]              0         
+_________________________________________________________________
+125_nodes_hidden_layer_1 (De (None, 50)                1300      
+_________________________________________________________________
+50_nodes_hidden_layer_2 (Den (None, 50)                2550      
+_________________________________________________________________
+25_nodes_hidden_layer_3 (Den (None, 25)                1275      
+_________________________________________________________________
+output_R_eff (Dense)         (None, 1)                 26        
+=================================================================
+Total params: 5,151
+Trainable params: 5,151
+Non-trainable params: 0
+_________________________________________________________________
+
+Test loss, accuracy: [0.00015156938752625138, 0.008550617843866348]
+--- Test0 relative error: mean = 3.81%, standard deviation = 4.30%
+
+Validation loss, accuracy: [0.00016416188736911863, 0.00873633660376072]
+--- Validation0 relative error: mean = 3.70%, standard deviation = 3.98%
+
+Train loss, accuracy: [4.5520900471274217e-07, 0.000546821451280266]
+--- Train0 relative error: mean = 0.23%, standard deviation = 0.19%
+
+Simulation time: 145.19 seconds.
